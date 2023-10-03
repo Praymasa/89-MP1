@@ -1,0 +1,256 @@
+main > .container {
+  padding: 60px 15px 0;
+}
+
+.dropbtn {
+  color: black;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+}
+  
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+  
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f8a99f;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+  
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+  
+.dropdown-content a:hover {background-color: #ddd;}
+  
+.dropdown:hover .dropdown-content {
+  display: block; 
+  text-decoration:none;
+}
+  
+.dropdown:hover .dropbtn {background-color: #f8a99f;}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  }
+  
+  /* Set a style for all buttons */
+.log-in-btn {
+  display: inline;
+  float: right;
+  background-color: #a6a8a7;
+  color: rgb(0, 0, 0);
+  padding: 5px 0;
+  margin: 0;
+  border: none;
+  cursor: pointer;
+  width: 30%;
+  border-radius: 5px;
+}
+  
+  button:hover {
+  opacity: 0.8;
+}
+  
+  /* Extra styles for the cancel button */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+  border: none;
+}
+  
+  /* Center the image and position the close button */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+  
+img.avatar {
+  width: 20%;
+  border-radius: 50%;
+}
+  
+.container {
+  padding: 16px;
+}
+  
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+  
+  /* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 80%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+  
+  /* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 60%; /* Could be more or less, depending on screen size */
+}
+  
+  /* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+  
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+  
+  /* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+  
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+    
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+
+/* My style */
+
+.logo{
+  width: 10%;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.contact-btn:hover{
+  background-color: #f8a99f;
+}
+
+.nav-item:hover{
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.search-area{
+  display: inline-flex;
+}
+
+input{
+  float: right;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.search-btn{
+  color: black;
+  border: none;
+  border-radius: 5px;
+  background-color:#ddd;
+}
+
+.search-btn:hover{
+  background-color: #f8a99f;
+}
+
+p{
+  text-indent: 20px;
+  text-align: justify;
+}
+
+.intro{
+  background-color: rgba(223, 242, 248, 0.685);
+}
+
+.intro h2{
+  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Young Serif', serif;
+  position: relative;
+  color: #000;
+}
+
+.intro h3{
+  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Young Serif', serif;
+  font-style: italic;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.family-photo{
+  width: 100%;
+}
+
+.contrary-1{
+  background-color: rgb(247, 228, 237);
+}
+
+.contrary-1 img, .contrary-2 img{
+  width: 100%;
+  box-shadow: 5px 5px 5px #a6a8a7;
+  margin: 7px;
+  transition: 1s;
+}
+
+.contrary-1 img:hover{
+  transform: scale(1.2);
+}
+
+.contrary-1 h3, .contrary-2 h3{
+  text-align: center;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.advantage ul{
+  margin-top: 20px;
+}
+
+.contrary-2{
+  background-color: rgba(245, 175, 154, 0.685);
+}
+.contrary-2 img:hover{
+  transform:rotate(30deg);
+}

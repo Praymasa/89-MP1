@@ -1,0 +1,25 @@
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+}
+
+@media (min-width: 992px){
+  .cid-rGtSrU5miX .blue-block {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: translate(20%, 20%);
+}
+
+}
+
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+}
