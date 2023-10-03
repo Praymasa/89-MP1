@@ -223,15 +223,11 @@ p{
   width: 100%;
 }
 
-.contrary-1{
-  background-color: rgb(247, 228, 237);
-}
-
 .contrary-1 img, .contrary-2 img{
   width: 100%;
   box-shadow: 5px 5px 5px #a6a8a7;
   margin: 7px;
-  transition: 1s;
+  transition: 0.5s;
 }
 
 .contrary-1 img:hover{
@@ -242,15 +238,76 @@ p{
   text-align: center;
   font-weight: bold;
   margin-top: 10px;
+  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Young Serif', serif;
 }
 
-.advantage ul{
-  margin-top: 20px;
+.advantage ul, .disadvantages ul{
+  margin-top: 30px;
 }
 
 .contrary-2{
-  background-color: rgba(245, 175, 154, 0.685);
+  background-color: rgb(247, 228, 237);
 }
 .contrary-2 img:hover{
-  transform:rotate(30deg);
+  transform:rotate(-5deg);
+}
+
+.why-us h2, .why-us h3{
+  text-align: center;
+  font-weight: bold;
+  margin-top: 30px;
+  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Young Serif', serif;
+}
+
+.why-us img{
+  width: 70%;
+  margin-top: 30px;
+  margin: 20px;
+  box-shadow: 5px 5px 5px #a6a8a7;
+  transition: 1s;
+}
+
+footer{
+  background-color: #ddd;
+}
+
+.nav-footer a, .nav-footer li{
+  text-decoration: none;
+  list-style-type: none;
+  color: #000;
+  text-align: center;
+}
+
+
+.footer{
+  color: white;
+  background-color: #888;
+  justify-content:space-around;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.contact-us h5, .certification h5{
+  text-align: center;
+  font-weight: bold;
+}
+
+.contact-us p{
+  text-align: center;
+}
+.icon{
+  display: inline-block;
+  font-size: larger;
+  text-align: justify;
+}
+
+.certification{
+  text-align: center;
+}
+
+.cert-logo{
+  width: 30%;
 }
