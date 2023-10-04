@@ -63,3 +63,9 @@
     padding: 15px;
   }
 }
+
+@media screen and (min-width: 1530x){
+  .nanny{
+    padding: 200px;
+  }
+}
