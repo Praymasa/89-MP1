@@ -463,5 +463,11 @@ span{
 
 .why-reasons{
   list-style: url(../images/services/arrow\ heart.png);
-  width: 10px;
+  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Young Serif', serif;
+
+}
+
+.why-reasons li{
+  padding: 20px;
 }
