@@ -63,12 +63,4 @@
   .nanny{
     padding: 15px;
   }
-
-}
-
-@media screen and (max-width: 280px){
-  .nanny{
-    padding: 10px;
-  }
-
 }
