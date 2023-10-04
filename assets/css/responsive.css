@@ -3,9 +3,16 @@
       font-size: 3.5rem;
     }
 
-    *p{
+}
+
+@media (min-width: 1050px) {
+    .the-body {
+      font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
       font-size: large;
-    }
+      line-height: 1.42857143;
+      color: #333;
+      background-color: #fff;
+  }
 }
 
 @media (min-width: 992px){
