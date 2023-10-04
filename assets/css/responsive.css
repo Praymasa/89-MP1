@@ -49,3 +49,12 @@
   }
 }
 
+
+@media screen and (min-width: 1300px){
+
+  .carousel-item p{
+    font-size: 20px;
+  }
+  
+}
+
