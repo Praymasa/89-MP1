@@ -193,6 +193,14 @@ span.psw {
 
 /* My style */
 
+.the-body{
+  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Young Serif', serif;
+}
+img{
+  width: 100%;
+}
 .logo{
   width: 10%;
   border-radius: 5px;
@@ -212,11 +220,11 @@ span.psw {
   display: inline-flex;
 }
 
-input{
+/* input{
   float: right;
   padding: 5px;
   border-radius: 5px;
-}
+} */
 
 .search-btn{
   color: black;
@@ -472,3 +480,42 @@ span{
   padding: 15px;
 }
 
+.bold{
+  font-weight: bold;
+}
+
+#housekeeping{
+  background-color: rgba(128, 255, 0, 0.185);
+}
+.font-select option{
+  font-size: 1.5rem;
+  line-height: 1.9rem
+}
+
+.book-btn a {
+  background-color: #0d6efd;
+  display: inline;
+  color: #fdfdfd;
+  padding: 10px;
+  border-radius: 3px;
+}
+
+.book-btn a:hover{
+  text-decoration: none;
+  background-color: #fdfdfd;
+  color: #0d6efd;
+}
+
+.send-btn{
+  background-color: rgb(57, 245, 57);
+  border-radius: 3px;
+  border: none;
+}
+
+.modal-header, .mdl-footer{
+  background-color: #0d6dfd41;
+}
+
+.mdl-footer{
+  padding: 15px;
+}

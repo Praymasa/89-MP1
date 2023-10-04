@@ -130,7 +130,7 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 
     </head>
-    <body class="the-body">
+    <body class="d-flex flex-column h-100 the-body">
         
         <!-- navigation -->
         <header>
@@ -155,7 +155,7 @@
                         <div class="dropdown">
                             <a href="services.html" class="dropbtn nav-item">Services</a>
                             <div class="dropdown-content">
-                                <a href="housekeeping.html" class="nav-item">Housekeeping</a>
+                                <a href="#housekeeping" class="nav-item">Housekeeping</a>
                                 <a href="babysit.html" class="nav-item">Baby Sit</a>
                                 <a href="caregiving.html" class="nav-item">Caregiving</a>
                             </div>
@@ -214,10 +214,11 @@
                     </div>
                 </div>
 
-
-                <div class="col-sm-6">
+                <div class="col-sm-4">
                     <img src="https://static.wixstatic.com/media/55c14a_4fb62f662f1b4831a0c47521f4eb5e27~mv2.png/v1/crop/x_114,y_0,w_638,h_754/fill/w_440,h_520,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/image%2054.png"/>
                 </div>
+
+                <div class="col-sm-2"></div>
 
             </div>
         </section>
@@ -282,12 +283,94 @@
                         <li>Customized service plans.</li>
                         <li>Personal care and companionship.</li>
                         <li>The Neighborly Done Right Promise.</li>
-                        <li>Long term commitment</li>
+                        <li>And Our Continued Commitment To You</li>
                     </ul>
                 </div>
 
                 <div class="col-sm-1"></div>
 
+            </div>
+
+        </section>
+
+        <section id="housekeeping" class="p-5">
+            <div class="row">
+                <div class="col-sm-1"></div>
+
+                <div class="col-sm-2">
+                    
+                </div>
+
+                <div class="col-sm-6">
+                    <h2>Our Cleaning Services</h2>
+
+                    <p>Since 1984, customers have welcomed the trusted cleaning professionals from locally owned and operated Molly Maid businesses into their homes. We’ve provided cleaning services to over a million customers, and want you to know that you can continue to rely on us to go above and beyond to provide you with a worry-free, top-notch cleaning service every time.</p>
+
+                    <p class="bold">Taking care of homes and those in them is what we do best. We firmly believe a healthy home is a clean home!</p>
+
+                    <div class="modal fade" id="modalContactForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                    aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header text-center">
+                                    <h4 class="modal-title w-100 font-weight-bold">Schedule a Service</h4>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+
+                                <div class="modal-body mx-3 p-3">
+                                    <div class="md-form mb-5">
+                                        <input type="text" id="form34" class="form-control validate">
+                                        <label data-error="wrong" data-success="right" for="form34">Your name</label>
+                                    </div>
+
+                                    <div class="md-form mb-5">
+                                        <input type="email" id="form29" class="form-control validate">
+                                        <label data-error="wrong" data-success="right" for="form29">Your email</label>
+                                    </div>
+
+                                    <div class="md-form mb-5 font-select">
+                                        <select class="form-select " aria-label="Default select example">
+                                            <option selected>Select a Service</option>
+
+                                            <option value="1">House Cleaning</option>
+
+                                            <option value="2">Nanny/Baby Sitting</option>
+                                            
+                                            <option value="3">Care Giving</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="md-form mb-5 font-select">
+                                        <select class="form-select " aria-label="Default select example">
+                                            <option selected>Select Term</option>
+
+                                            <option value="1">One Time only</option>
+
+                                            <option value="2">Schedule</option>
+
+                                            <option value="3">Long Term</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="md-form">
+                                        <textarea type="text" id="form8" class="md-textarea form-control" rows="4"></textarea>
+                                        <label data-error="wrong" data-success="right" for="form8">Your message</label>
+                                    </div>
+                                </div>
+
+                                <div class="d-flex justify-content-center mdl-footer">
+                                    <button class="send-btn">Send</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="text-left book-btn">
+                        <a href="" class="btn-rounded mb-4" data-toggle="modal" data-target="#modalContactForm">Book a Service now</a>
+                    </div>
+                </div>
             </div>
 
         </section>
@@ -298,7 +381,7 @@
             <div class="row">
                 <div class="col-sm-3 nav-footer p-3">
                     <ul>
-                        <li><a href="home.html">Home</a></li>
+                        <li><a href="index.html">Home</a></li>
 
                         <li><a href="about.html">About Us</a></li>
 
@@ -357,5 +440,16 @@
                 }
             }
         </script>
+
+        <script>
+            function openForm() {
+            document.getElementById("myForm").style.display = "block";
+            }
+            
+            function closeForm() {
+            document.getElementById("myForm").style.display = "none";
+            }
+        </script>
+        
     </body>
 </html>
