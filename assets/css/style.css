@@ -557,16 +557,7 @@ span{
 .nanny{
   background-image: url(https://www.hdnicewallpapers.com/Wallpapers-Download/Cute-Smiling-Baby-Girl-HD-Wallpaper);
   background-size: cover;
-  background-repeat: no-repeat;h1>Text 2</h1>
-            </div>
-        </div>
-        <div class="carousel-item">
-            <div class="d-flex h-100 align-items-center justify-content-center">
-                <h1>Text 3</h1>
-            </div>
-        </div>
-    </div>
-</div>
+  background-repeat: no-repeat;
   padding: 130px;
   color: #fefefe;
 }
