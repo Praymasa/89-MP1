@@ -522,3 +522,42 @@ span{
 .mdl-footer{
   padding: 15px;
 }
+
+#housekeeping h3{
+  background-color: #f8a99f;
+  padding: 10px;
+  box-shadow: 5px 5px rgba(65, 63, 63, 0.473);
+  margin-top: 70px;
+}
+
+#housekeeping ul{
+  padding-top: 60px;
+  list-style: none;
+}
+
+#housekeeping i{
+  color: #fa0000;
+  padding: 3px;
+}
+
+#housekeeping li{
+  padding: 3px;
+}
+
+.italic{
+  font-style: italic;
+  font-weight: bold;
+  padding-top: 30px;
+}
+
+#babysit{
+  background-color: #db93f767;
+}
+
+.nanny{
+  background-image: url(https://www.hdnicewallpapers.com/Wallpapers-Download/Cute-Smiling-Baby-Girl-HD-Wallpaper);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 130px;
+  color: #fefefe;
+}
