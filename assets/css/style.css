@@ -492,6 +492,9 @@ span{
   line-height: 1.9rem
 }
 
+.book-btn{
+  margin-top: 25px;
+}
 .book-btn a {
   background-color: #0d6efd;
   display: inline;
