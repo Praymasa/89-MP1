@@ -118,7 +118,7 @@ input[type=text], input[type=password] {
 
 .flip-card-back {
   background-color: #c655f3;
-  color: white;
+  color: rgb(10, 0, 0);
   transform: rotateY(180deg);
 }
 
