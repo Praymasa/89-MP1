@@ -136,8 +136,8 @@
         <header>
             <nav class="navbar navbar-expand-lg bg-body-tertiary">
                 <div class="container-fluid">
-                    <img src="assets/images/logo.jpg" class="logo" href="home.html"/>
-                    <a class="navbar-brand" href="home.html"><span>YourBest</span> Care</a>
+                    <img src="assets/images/logo.jpg" class="logo" href="index.html"/>
+                    <a class="navbar-brand" href="index.html"><span>YourBest</span> Care</a>
 
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
                     </button>
@@ -147,53 +147,61 @@
                         <div class="dropdown">
                             <a href="about.html" class="dropbtn nav-item">About Us</a>
                             <div class="dropdown-content">
-                                <a href="about.html#management" class="nav-item">Management Team</a>
-                                <a href="about.html#workforce" class="nav-item">Member of the Workforce</a>
+                                <a href="about.html#management" target="_self" class="nav-item">Management Team</a>
+                                <a href="" class="nav-item">Member of the Workforce</a>
                             </div>
                         </div>
 
                         <div class="dropdown">
                             <a href="services.html" class="dropbtn nav-item">Services</a>
                             <div class="dropdown-content">
-                                <a href="#housekeeping" class="nav-item">Housekeeping</a>
-                                <a href="#babysit" class="nav-item">Baby Sit</a>
-                                <a href="#caregiving.html" class="nav-item">Caregiving</a>
+                                <a href="services.html#housekeeping" class="nav-item">Housekeeping</a>
+                                <a href="babysit.html" class="nav-item">Baby Sit</a>
+                                <a href="caregiving.html" class="nav-item">Caregiving</a>
                             </div>
                         </div>
-                       
+
                         <div class="dropdown">
                             <a href="contact.html" class="dropbtn contact-btn nav-item">Contact Us</a>
                             <div class="dropdown-content">
-                                <a href="contact.html#locations" class="nav-item">Locations</a>
+                                <a href="#" class="nav-item">Locations</a>
                             </div>
                         </div>
-                        
-                        <button onclick="document.getElementById('id01').style.display='block'" class="log-in-btn">Employee's Log-in</button>
+                
+                        <!--Modal: Login with Avatar Form-->
+                        <div class="modal fade" id="modalLoginAvatar" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                        aria-hidden="true">
+                            <div class="modal-dialog cascading-modal modal-avatar modal-sm" role="document">
+                            <!--Content-->
+                                <div class="modal-content">
 
-                        <div id="id01" class="modal">
-                        
-                            <form class="modal-content animate" action="/action_page.php" method="post">
-                                <div class="imgcontainer">
-                                    <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-                                    <img src="assets/images/av.png" alt="Avatar" class="avatar">
+                                    <!--Header-->
+                                    <div class="modal-header">
+                                        <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20%281%29.webp" alt="avatar" class="rounded-circle img-responsive">
+                                    </div>
+                                    <!--Body-->
+                                    <div class="modal-body text-center mb-1">
+
+                                        <h5 class="mt-1 mb-2">Maria Doe</h5>
+
+                                        <div class="md-form ml-0 mr-0">
+                                            <input type="password" type="text" id="form29" class="form-control form-control-sm validate ml-0">
+                                            <label data-error="wrong" data-success="right" for="form29" class="ml-0">Enter password</label>
+                                        </div>
+
+                                        <div class="text-center mt-4 login">
+                                            <button class="btn btn-cyan mt-1">Login <i class="fas fa-sign-in ml-1"></i></button>
+                                        </div>
+                                    </div>
+
                                 </div>
-
-                                <div class="container">
-                                    <input type="text" placeholder="Enter Username" name="uname" required>
-
-                                    <input type="password" placeholder="Enter Password" name="psw" required>
-                                        
-                                    <button type="submit" class="log-in-btn">Login</button>
-                                    <label>
-                                        <input type="checkbox" checked="checked" name="remember"> Remember me
-                                    </label>
+                                <!--/.Content-->
                                 </div>
+                            </div>
+                            <!--Modal: Login with Avatar Form-->
 
-                                <div class="container">
-                                <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
-                                <span class="psw"><a href="#">Forgot password?</a></span>
-                                </div>
-                            </form>
+                        <div class="text-center">
+                            <a href="" class="btn-rounded log-in-btn" data-toggle="modal" data-target="#modalLoginAvatar">Employee Log-In</a>
                         </div>
                     </div> 
                 </div>
@@ -870,7 +878,7 @@
 
                         <li><a href="about.html#management">Management Team</a></li>
 
-                        <li><a href="workforce.html">Member of the Workforce</a></li>
+                        <li><a href="about.html#workforce">Member of the Workforce</a></li>
                     </ul>
                 </div>
 
@@ -882,7 +890,7 @@
 
                         <li><a href="services.html#caregiving">Caregiving</a></li>
 
-                        <li><a href="locations.html">Locations</a></li>
+                        <li><a href="contact.html#locations">Locations</a></li>
                     </ul>
                 </div>
 

@@ -169,32 +169,40 @@
                             </div>
                         </div>
                 
-                        <button onclick="document.getElementById('id01').style.display='block'" class="log-in-btn">Employee's Log-in</button>
+                        <!--Modal: Login with Avatar Form-->
+                        <div class="modal fade" id="modalLoginAvatar" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                        aria-hidden="true">
+                            <div class="modal-dialog cascading-modal modal-avatar modal-sm" role="document">
+                            <!--Content-->
+                                <div class="modal-content">
 
-                        <div id="id01" class="modal">
-                        
-                            <form class="modal-content animate" action="/action_page.php" method="post">
-                                <div class="imgcontainer">
-                                    <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-                                    <img src="assets/images/av.png" alt="Avatar" class="avatar">
+                                    <!--Header-->
+                                    <div class="modal-header">
+                                        <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20%281%29.webp" alt="avatar" class="rounded-circle img-responsive">
+                                    </div>
+                                    <!--Body-->
+                                    <div class="modal-body text-center mb-1">
+
+                                        <h5 class="mt-1 mb-2">Maria Doe</h5>
+
+                                        <div class="md-form ml-0 mr-0">
+                                            <input type="password" type="text" id="form29" class="form-control form-control-sm validate ml-0">
+                                            <label data-error="wrong" data-success="right" for="form29" class="ml-0">Enter password</label>
+                                        </div>
+
+                                        <div class="text-center mt-4 login">
+                                            <button class="btn btn-cyan mt-1">Login <i class="fas fa-sign-in ml-1"></i></button>
+                                        </div>
+                                    </div>
+
                                 </div>
-
-                                <div class="container">
-                                    <input type="text" placeholder="Enter Username" name="uname" required>
-
-                                    <input type="password" placeholder="Enter Password" name="psw" required>
-                                        
-                                    <button type="submit" class="log-in-btn">Login</button>
-                                    <label>
-                                        <input type="checkbox" checked="checked" name="remember"> Remember me
-                                    </label>
+                                <!--/.Content-->
                                 </div>
+                            </div>
+                            <!--Modal: Login with Avatar Form-->
 
-                                <div class="container">
-                                <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
-                                <span class="psw"><a href="#">Forgot password?</a></span>
-                                </div>
-                            </form>
+                        <div class="text-center">
+                            <a href="" class="btn-rounded log-in-btn" data-toggle="modal" data-target="#modalLoginAvatar">Employee Log-In</a>
                         </div>
                     </div> 
                 </div>
@@ -202,8 +210,8 @@
         </header>
 
         <!-- Content -->
-        <section class="clearfix intro">
-            <div class="container">
+        <section class="clearfix intro pt-5 mt-0">
+            <div class="containers">
                 <div class="row">
                     <div class="col-sm-12">
                         <div class="col-sm-6">
@@ -247,27 +255,32 @@
             </div>
         </section>
 
-        <section class="clearfix contrary-1">
-            <div class="container">
+        <section class="clearfix contrary-1 p-5">
+            <div class="containers">
                 <div class="row">
                     <h3>Advantages</h3>
-                    <div class="col-sm-4">
+
+                    <div class="col-sm-2"></div>
+
+                    <div class="col-sm-3">
                         <img src="assets/images/r-5.jpg">
                     </div>
-                    <div class="col-sm-4">
+                    <div class="col-sm-3">
                         <img src="assets/images/r-2.jpg">
                     </div>
-                    <div class="col-sm-4">
+                    <div class="col-sm-3">
                         <img src="assets/images/r-3-l.jpg">
                     </div>
                 </div>
 
                 <div class="row advantage">
-                    <div class="col-sm-4">
+                    <div class="col-sm-1"></div>
+
+                    <div class="col-sm-3">
                         <img src="assets/images/f-travel.png">
                     </div>
 
-                    <div class="col-sm-4">
+                    <div class="col-sm-5">
                         <ul>
                             <li> better quality of life for children e.g. food, clothing, health care, entertainment</li>
 
@@ -281,50 +294,58 @@
                         </ul>
                     </div>
 
-                    <div class="col-sm-4">
+                    <div class="col-sm-3">
                         <img src="assets/images/f-shopping.avif">
                     </div>
                 </div>
 
                 <div class="row">
-                    <div class="col-sm-4">
+                    <div class="col-sm-2"></div>
+
+                    <div class="col-sm-3">
                         <img src="assets/images/r-7-l.jpg">
                     </div>
 
-                    <div class="col-sm-4">
+                    <div class="col-sm-3">
                         <img src="assets/images/r-6.png">
                     </div>
 
-                    <div class="col-sm-4">
+                    <div class="col-sm-3">
                         <img src="assets/images/r-8.jpg">
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="clearfix contrary-2">
-            <div class="container">
+        <section class="clearfix contrary-2 p-5">
+            <div class="containers">
                 <div class="row">
                     <h3>Disadvantages</h3>
-                    <div class="col-sm-4">
+
+                    <div class="col-sm-2"></div>
+
+                    <div class="col-sm-3">
                         <img src="assets/images/ds-3.png">
                     </div>
 
-                    <div class="col-sm-4">
+                    <div class="col-sm-3">
                         <img src="assets/images/ds-4.png">
                     </div>
 
-                    <div class="col-sm-4">
+                    <div class="col-sm-3">
                         <img src="assets/images/ds-1.png">
                     </div>
                 </div>
 
                 <div class="row disadvantages">
-                    <div class="col-sm-4">
+
+                    <div class="col-sm-1"></div>
+
+                    <div class="col-sm-3">
                         <img src="assets/images/ds-5.png">
                     </div>
 
-                    <div class="col-sm-4">
+                    <div class="col-sm-5">
                         <ul>
                             <li>children may play truant</li>
                     
@@ -338,21 +359,23 @@
                         </ul>
                     </div>
 
-                    <div class="col-sm-4">
+                    <div class="col-sm-3">
                         <img src="assets/images/ds-6.png">
                     </div>
                 </div>
 
                 <div class="row">
-                    <div class="col-sm-4">
+                    <div class="col-sm-2"></div>
+
+                    <div class="col-sm-3">
                         <img src="assets/images/ds-7.png">
                     </div>
 
-                    <div class="col-sm-4">
+                    <div class="col-sm-3">
                         <img src="assets/images/ds-8.png">
                     </div>
 
-                    <div class="col-sm-4">
+                    <div class="col-sm-3">
                         <img src="assets/images/ds-9.png">
                     </div>
                 </div>
@@ -369,7 +392,7 @@
                     <h3>We Got What You Need!</h3>
                 </div>
 
-                <div class="row">
+                <div class="row provides">
                     <h2>Services We Provide</h2>
                     <div class="col-sm-4 cleaning">
                         <img src="assets/images/cleaning-serv.webp" href="housekeeping.html">

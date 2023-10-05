@@ -50,97 +50,28 @@ input[type=text], input[type=password] {
   box-sizing: border-box;
   }
   
+  .login{
+    background-color: #04f87e;
+  }
   /* Set a style for all buttons */
 .log-in-btn {
   display: inline;
   float: right;
-  background-color: #a6a8a7;
+  background-color: #04f87e;
   color: rgb(0, 0, 0);
   padding: 5px 0;
   margin: 0;
   border: none;
   cursor: pointer;
-  width: 30%;
+  width: 20%;
   border-radius: 5px;
 }
   
-  button:hover {
+.log-in-btn:hover {
   opacity: 0.8;
 }
   
-  /* Extra styles for the cancel button */
-.cancelbtn {
-  width: auto;
-  padding: 10px 18px;
-  background-color: #f44336;
-  border: none;
-}
-  
-  /* Center the image and position the close button */
-.imgcontainer {
-  text-align: center;
-  margin: 24px 0 12px 0;
-  position: relative;
-}
-  
-img.avatar {
-  width: 20%;
-  border-radius: 50%;
-}
-  
-.container {
-  padding: 16px;
-}
-  
-span.psw {
-  float: right;
-  padding-top: 16px;
-}
-  
-  /* The Modal (background) */
-.modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  left: 0;
-  top: 0;
-  width: 80%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-  padding-top: 60px;
-}
-  
-  /* Modal Content/Box */
-.modal-content {
-  background-color: #fefefe;
-  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
-  border: 1px solid #888;
-  width: 60%; /* Could be more or less, depending on screen size */
-}
-  
-  /* The Close Button (x) */
-.close {
-  position: absolute;
-  right: 25px;
-  top: 0;
-  color: #000;
-  font-size: 35px;
-  font-weight: bold;
-}
-  
-.close:hover,
-.close:focus {
-  color: red;
-  cursor: pointer;
-}
-  
-  /* Add Zoom Animation */
-.animate {
-  -webkit-animation: animatezoom 0.6s;
-  animation: animatezoom 0.6s
-}
+ */
   
 @-webkit-keyframes animatezoom {
   from {-webkit-transform: scale(0)} 
@@ -274,7 +205,7 @@ p{
 }
 
 .contrary-1 img, .contrary-2 img{
-  width: 100%;
+  width: 60%;
   box-shadow: 5px 5px 5px #a6a8a7;
   margin: 7px;
   transition: 0.5s;
@@ -386,10 +317,11 @@ span{
   margin: 5px;
 }
 
-.about-company h5, #management h1, #management h2{
+.about-company h5, #management h1, #management h2, #workforce h2{
   font-family: 'Nunito Sans', sans-serif;
   font-family: 'Young Serif', serif;
   font-weight: bold;
+  text-align: center;
 }
 
 .emp-num h3{
@@ -515,7 +447,7 @@ span{
   border: none;
 }
 
-.modal-header, .mdl-footer{
+.modal-header, .mdl-footer, .provides{
   background-color: #0d6dfd41;
 }
 
@@ -627,7 +559,18 @@ input[type=submit]:hover {
   padding-top: 70px;
 }
 
-.locs{
+.locs, .char{
   margin: 20px;
   font-size: smaller;
+  text-align: center;
+}
+
+.locs h5{
+  color: rgb(247, 4, 255);
+  font-weight: bold;
+}
+
+.char h5{
+  color: rgb(252, 83, 32);
+  font-weight: bold;
 }

@@ -3,6 +3,14 @@
       font-size: 3.5rem;
     }
 
+    .flip-card-back h1, .flip-card-back h3 {
+      font-size: 15px;
+    }
+
+    .flip-card-back{
+      justify-content: center;
+    }
+
 }
 
 @media (min-width: 1050px) {

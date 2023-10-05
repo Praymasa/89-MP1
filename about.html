@@ -153,8 +153,8 @@
                         <div class="dropdown">
                             <a href="about.html" class="dropbtn nav-item">About Us</a>
                             <div class="dropdown-content">
-                                <a href="#management" class="nav-item">Management Team</a>
-                                <a href="#workforce" class="nav-item">Member of the Workforce</a>
+                                <a href="about.html#management" target="_self" class="nav-item">Management Team</a>
+                                <a href="" class="nav-item">Member of the Workforce</a>
                             </div>
                         </div>
 
@@ -162,44 +162,52 @@
                             <a href="services.html" class="dropbtn nav-item">Services</a>
                             <div class="dropdown-content">
                                 <a href="services.html#housekeeping" class="nav-item">Housekeeping</a>
-                                <a href="services.html#babysit" class="nav-item">Baby Sit</a>
-                                <a href="services.html#caregiving" class="nav-item">Caregiving</a>
+                                <a href="babysit.html" class="nav-item">Baby Sit</a>
+                                <a href="caregiving.html" class="nav-item">Caregiving</a>
                             </div>
                         </div>
-                        
+
                         <div class="dropdown">
                             <a href="contact.html" class="dropbtn contact-btn nav-item">Contact Us</a>
                             <div class="dropdown-content">
-                                <a href="contact.html#locations" class="nav-item">Locations</a>
+                                <a href="#" class="nav-item">Locations</a>
                             </div>
                         </div>
+                
+                        <!--Modal: Login with Avatar Form-->
+                        <div class="modal fade" id="modalLoginAvatar" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                        aria-hidden="true">
+                            <div class="modal-dialog cascading-modal modal-avatar modal-sm" role="document">
+                            <!--Content-->
+                                <div class="modal-content">
 
-                        <button onclick="document.getElementById('id01').style.display='block'" class="log-in-btn">Employee's Log-in</button>
+                                    <!--Header-->
+                                    <div class="modal-header">
+                                        <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20%281%29.webp" alt="avatar" class="rounded-circle img-responsive">
+                                    </div>
+                                    <!--Body-->
+                                    <div class="modal-body text-center mb-1">
 
-                        <div id="id01" class="modal">
-                        
-                            <form class="modal-content animate" action="/action_page.php" method="post">
-                                <div class="imgcontainer">
-                                    <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-                                    <img src="assets/images/av.png" alt="Avatar" class="avatar">
+                                        <h5 class="mt-1 mb-2">Maria Doe</h5>
+
+                                        <div class="md-form ml-0 mr-0">
+                                            <input type="password" type="text" id="form29" class="form-control form-control-sm validate ml-0">
+                                            <label data-error="wrong" data-success="right" for="form29" class="ml-0">Enter password</label>
+                                        </div>
+
+                                        <div class="text-center mt-4 login">
+                                            <button class="btn btn-cyan mt-1">Login <i class="fas fa-sign-in ml-1" ></i></button>
+                                        </div>
+                                    </div>
+
                                 </div>
-
-                                <div class="container">
-                                    <input type="text" placeholder="Enter Username" name="uname" required>
-
-                                    <input type="password" placeholder="Enter Password" name="psw" required>
-                                        
-                                    <button type="submit" class="log-in-btn">Login</button>
-                                    <label>
-                                        <input type="checkbox" checked="checked" name="remember"> Remember me
-                                    </label>
+                                <!--/.Content-->
                                 </div>
+                            </div>
+                            <!--Modal: Login with Avatar Form-->
 
-                                <div class="container">
-                                <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
-                                <span class="psw"><a href="#">Forgot password?</a></span>
-                                </div>
-                            </form>
+                        <div class="text-center">
+                            <a href="" class="btn-rounded log-in-btn" data-toggle="modal" data-target="#modalLoginAvatar">Employee Log-In</a>
                         </div>
                     </div> 
                 </div>
@@ -320,7 +328,7 @@
                                 <h1>SpongeBob</h1>
                                 <h3>Founder and General Manager</h3>
                                 <p><i class="bi bi-telephone"></i>&nbsp;0912-456-7890</p>
-                                <p><i class="bi bi-envelope"></i>&nbsp;email@yourbestinnovation.com</p>
+                                <p><i class="bi bi-envelope"></i>&nbsp;email@ybcare.com</p>
                                 <p>We love that guy</p>
                             </div>
                         </div>
@@ -338,7 +346,7 @@
                                 <h1>Queen Poppy</h1>
                                 <h3>Architect & Engineer</h3>
                                 <p><i class="bi bi-telephone"></i>&nbsp;0912-456-7890</p>
-                                <p><i class="bi bi-envelope"></i>&nbsp;email@yourbestinnovation.com</p>
+                                <p><i class="bi bi-envelope"></i>&nbsp;email@ybcare.com</p>
                                 <p>We love that guy</p>
                             </div>
                         </div>
@@ -356,7 +364,7 @@
                                 <h1>Kevin the Minion</h1>
                                 <h3>Architect & Engineer</h3>
                                 <p><i class="bi bi-telephone"></i>&nbsp;0912-456-7890</p>
-                                <p><i class="bi bi-envelope"></i>&nbsp;email@yourbestinnovation.com</p>
+                                <p><i class="bi bi-envelope"></i>&nbsp;email@ybcare.com</p>
                                 <p>We love that guy</p>
                             </div>
                         </div>
@@ -376,7 +384,7 @@
                                 <h1>Mr. Smurfs</h1>
                                 <h3>Architect & Engineer</h3>
                                 <p><i class="bi bi-telephone"></i>&nbsp;0912-456-7890</p>
-                                <p><i class="bi bi-envelope"></i>&nbsp;email@yourbestinnovation.com</p>
+                                <p><i class="bi bi-envelope"></i>&nbsp;email@ybcare.com</p>
                                 <p>We love that guy</p>
                             </div>
                         </div>
@@ -394,7 +402,7 @@
                             <h1>The Grinch</h1>
                             <h3>Architect & Engineer</h3>
                             <p><i class="bi bi-telephone"></i>&nbsp;0912-456-7890</p>
-                            <p><i class="bi bi-envelope"></i>&nbsp;email@yourbestinnovation.com</p>
+                            <p><i class="bi bi-envelope"></i>&nbsp;email@ybicare.com</p>
                             <p>We love that guy</p>
                           </div>
                         </div>
@@ -407,8 +415,211 @@
         <!--// Management Team -->
 
         <!-- Member of the Workforce -->
-        <section>
+        <section id="workforce" class="p-5">
 
+            <h2>Member of the Workforce</h2>
+            <div class="row">
+                <div class="card char" style="width: 18rem;">
+                    <img class="card-img-top pt-2" src="https://static.wikia.nocookie.net/cartooncharacters/images/6/66/BUBBLES_PPG.png/revision/latest/scale-to-width-down/1200?cb=20170411232527" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Bubbles</h5>
+                        <p class="card-text">Best emplooyee of the year.</p>
+                        <a href="#" class="btn btn-primary">Contact Now</a>
+                    </div>
+                </div>
+
+                <div class="card char" style="width: 18rem;">
+                    <img class="card-img-top pt-2" src="https://www.liveabout.com/thmb/pr4K8JNyAO84ZKWhePwfsDN-9xM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/bart-simpson-58fe1f773df78ca159b60cc2.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Matt</h5>
+                        <p class="card-text">Best emplooyee of the year.</p>
+                        <a href="#" class="btn btn-primary">Contact Now</a>
+                    </div>
+                </div>
+
+                <div class="card char" style="width: 18rem;">
+                    <img class="card-img-top pt-2" src="https://www.animaker.com/hub/wp-content/uploads/2023/03/GarfieldCharacter.webp" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Garfield</h5>
+                        <p class="card-text">Best emplooyee of the year.</p>
+                        <a href="#" class="btn btn-primary">Contact Now</a>
+                    </div>
+                </div>
+
+                <div class="card char" style="width: 18rem;">
+                    <img class="card-img-top pt-2" src="https://easydrawingart.com/wp-content/uploads/2019/08/How-to-draw-a-cartoon-character-1.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Johnie Bravo</h5>
+                        <p class="card-text">Best emplooyee of the year.</p>
+                        <a href="#" class="btn btn-primary">Contact Now</a>
+                    </div>
+                </div>
+
+                <div class="card char" style="width: 18rem;">
+                    <img class="card-img-top pt-2" src="https://www.loudegg.com/wp-content/uploads/2020/10/Mickey-Mouse.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Mickey Mouse</h5>
+                        <p class="card-text">Best emplooyee of the year.</p>
+                        <a href="#" class="btn btn-primary">Contact Now</a>
+                    </div>
+                </div>
+
+                <div class="card char" style="width: 18rem;">
+                    <img class="card-img-top pt-2" src="https://www.loudegg.com/wp-content/uploads/2020/10/Bugs-Bunny.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Bugs Bunny</h5>
+                        <p class="card-text">Best emplooyee of the year.</p>
+                        <a href="#" class="btn btn-primary">Contact Now</a>
+                    </div>
+                </div>
+
+                <div class="card char" style="width: 18rem;">
+                    <img class="card-img-top pt-2" src="https://www.loudegg.com/wp-content/uploads/2020/10/Fred-Flintstone.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Fred Flintstone</h5>
+                        <p class="card-text">Best emplooyee of the year.</p>
+                        <a href="#" class="btn btn-primary">Contact Now</a>
+                    </div>
+                </div>
+
+                <div class="card char" style="width: 18rem;">
+                    <img class="card-img-top pt-2" src="https://www.loudegg.com/wp-content/uploads/2020/10/Snoopy.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Snoopy</h5>
+                        <p class="card-text">Best emplooyee of the year.</p>
+                        <a href="#" class="btn btn-primary">Contact Now</a>
+                    </div>
+                </div>
+
+                <div class="card char" style="width: 18rem;">
+                    <img class="card-img-top pt-2" src="https://static.wikia.nocookie.net/clamp/images/0/0f/Cardcaptors_Anime_Profile.jpg/revision/latest?cb=20190415091724" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Cardcaptor Sakura </h5>
+                        <p class="card-text">Best emplooyee of the year.</p>
+                        <a href="#" class="btn btn-primary">Contact Now</a>
+                    </div>
+                </div>
+
+                <div class="card char" style="width: 18rem;">
+                    <img class="card-img-top pt-2" src="https://www.loudegg.com/wp-content/uploads/2020/10/Winnie-The-Pooh.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Winnie-the-Pooh</h5>
+                        <p class="card-text">Best emplooyee of the year.</p>
+                        <a href="#" class="btn btn-primary">Contact Now</a>
+                    </div>
+                </div>
+
+                <div class="card char" style="width: 18rem;">
+                    <img class="card-img-top pt-2" src="https://www.loudegg.com/wp-content/uploads/2020/10/Woody.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Woody</h5>
+                        <p class="card-text">Best emplooyee of the year.</p>
+                        <a href="#" class="btn btn-primary">Contact Now</a>
+                    </div>
+                </div>
+
+                <div class="card char" style="width: 18rem;">
+                    <img class="card-img-top pt-2" src="https://www.loudegg.com/wp-content/uploads/2020/10/Betty-Boop.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Betty Boop</h5>
+                        <p class="card-text">Best emplooyee of the year.</p>
+                        <a href="#" class="btn btn-primary">Contact Now</a>
+                    </div>
+                </div>
+
+                <div class="card char" style="width: 18rem;">
+                    <img class="card-img-top pt-2" src="https://www.loudegg.com/wp-content/uploads/2020/10/Jerry-Mouse.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Jerry Mouse</h5>
+                        <p class="card-text">Best emplooyee of the year.</p>
+                        <a href="#" class="btn btn-primary">Contact Now</a>
+                    </div>
+                </div>
+
+                <div class="card char" style="width: 18rem;">
+                    <img class="card-img-top pt-2" src="https://www.loudegg.com/wp-content/uploads/2020/10/Hello-Kitty.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Hello Kitty</h5>
+                        <p class="card-text">Best emplooyee of the year.</p>
+                        <a href="#" class="btn btn-primary">Contact Now</a>
+                    </div>
+                </div>
+
+                <div class="card char" style="width: 18rem;">
+                    <img class="card-img-top pt-2" src="https://www.loudegg.com/wp-content/uploads/2020/10/Tweety-Bird.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Tweety Bird</h5>
+                        <p class="card-text">Best emplooyee of the year.</p>
+                        <a href="#" class="btn btn-primary">Contact Now</a>
+                    </div>
+                </div>
+
+                <div class="card char" style="width: 18rem;">
+                    <img class="card-img-top pt-2" src="https://www.loudegg.com/wp-content/uploads/2020/10/Popeye.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Popeye</h5>
+                        <p class="card-text">Best emplooyee of the year.</p>
+                        <a href="#" class="btn btn-primary">Contact Now</a>
+                    </div>
+                </div>
+
+                <div class="card char" style="width: 18rem;">
+                    <img class="card-img-top pt-2" src="https://www.loudegg.com/wp-content/uploads/2020/10/Patrick-Star.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Patrick Star</h5>
+                        <p class="card-text">Best emplooyee of the year.</p>
+                        <a href="#" class="btn btn-primary">Contact Now</a>
+                    </div>
+                </div>
+
+                <div class="card char" style="width: 18rem;">
+                    <img class="card-img-top pt-2" src="https://www.loudegg.com/wp-content/uploads/2020/10/Shrek.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Shrek</h5>
+                        <p class="card-text">Best emplooyee of the year.</p>
+                        <a href="#" class="btn btn-primary">Contact Now</a>
+                    </div>
+                </div>
+
+                <div class="card char" style="width: 18rem;">
+                    <img class="card-img-top pt-2" src="https://cdn.myanimelist.net/r/50x78/images/characters/9/310307.webp?s=46c6bc56eae5ac812b4e8b980c37e91a" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Monkey D., Luffy</h5>
+                        <p class="card-text">Best emplooyee of the year.</p>
+                        <a href="#" class="btn btn-primary">Contact Now</a>
+                    </div>
+                </div>
+
+                <div class="card char" style="width: 18rem;">
+                    <img class="card-img-top pt-2" src="https://cdn.myanimelist.net/r/50x78/images/characters/2/327920.webp?s=cbad9040293af1de46fcd7f0f25aed37" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Zoldyck, Killua</h5>
+                        <p class="card-text">Best emplooyee of the year.</p>
+                        <a href="#" class="btn btn-primary">Contact Now</a>
+                    </div>
+                </div>
+
+                <div class="card char" style="width: 18rem;">
+                    <img class="card-img-top pt-2" src="https://cdn.myanimelist.net/r/50x78/images/characters/2/284121.webp?s=eb05a7f677d0f3cc6471c542184fa2ea" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Uzumaki, Naruto</h5>
+                        <p class="card-text">Best emplooyee of the year.</p>
+                        <a href="#" class="btn btn-primary">Contact Now</a>
+                    </div>
+                </div>
+
+                <div class="card char" style="width: 18rem;">
+                    <img class="card-img-top pt-2" src="https://davedalessiowrites.files.wordpress.com/2020/07/sailor-moon.jpg?w=1000&h=563" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Sailor Moon</h5>
+                        <p class="card-text">Best emplooyee of the year.</p>
+                        <a href="#" class="btn btn-primary">Contact Now</a>
+                    </div>
+                </div>
+
+
+
+            </div>
             
         </section>
 
