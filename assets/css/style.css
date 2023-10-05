@@ -569,3 +569,23 @@ span{
   padding-left: 3px;
   padding-right: 3px;
 }
+
+.care{
+  padding-top: 50px;
+}
+
+.care li{
+  padding: 5px;
+}
+
+.care3{
+  box-shadow: 5px 5px 5px rgba(110, 110, 110, 0.404);
+}
+
+.cg-1, .cg{
+  background-color: rgba(127, 255, 212, 0.432);
+}
+
+.cg-2{
+  background-color: rgba(210, 105, 30, 0.212);
+}
